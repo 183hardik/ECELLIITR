@@ -13,7 +13,7 @@ function myFunction() {
     document.getElementById('userdata').innerHTML= result
     .map((user)=>
     `<tr>
-    <td><img src="${user.image}" height="80px"width="80px"></img></td>
+    <td><img id="logos" src="${user.image}" height="80px"width="80px"></img></td>
     <td><b><div class="name"margin-right="40px">${user.name}</div></b></td>
     <td>${user.description}</td>
     <td>${user.email}</td>
